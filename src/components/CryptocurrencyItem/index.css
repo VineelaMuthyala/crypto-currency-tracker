@@ -1,0 +1,33 @@
+.item-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  color: white;
+  width: 500px;
+  padding-left: 20px;
+}
+
+.crypto-currency-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-name-container {
+  display: flex;
+  flex-direction: row;
+}
+.currency-logo {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.item-text {
+  font-size: 12px;
+
+  width: 70px;
+}
+.currency-container {
+  display: flex;
+  flex-direction: row;
+}
